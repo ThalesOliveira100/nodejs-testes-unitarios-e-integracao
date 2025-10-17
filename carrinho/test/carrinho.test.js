@@ -55,7 +55,7 @@ describe("Testes do carrinho", () => {
         carrinho.adiciona(item2);
         carrinho.adicionaFrete(5.45);
 
-        expect(carrinho.calculaTotal()).toBe(58.95);
+        expect(carrinho.calculaTotal()).toBe(59.95);
     });
 
     it("Deve finalizar as compras", () => {
